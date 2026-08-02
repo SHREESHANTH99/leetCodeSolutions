@@ -7,7 +7,7 @@ public:
             prefSum[i + 1] = prefSum[i] + tasks[i];
         }
         vector<int> ans;
-        ans.reserve(shifts.size());
+        // ans.reserve(shifts.size());
         long long curr=0;
         for(int i=0;i<shifts.size();i++){
             curr+=shifts[i];
